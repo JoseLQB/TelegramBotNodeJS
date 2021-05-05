@@ -21,7 +21,7 @@ bot.command(['saludo', 'SALUDO', 'Saludo'], (ctx)=>{
 })
 
 bot.hears(['tds', 'TDS'], (ctx)=>{
-    ctx.reply("TDS PTS");
+    ctx.reply("TDS");
 })
 
 bot.on("text", (ctx)=>{
